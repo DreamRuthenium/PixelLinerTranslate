@@ -31,7 +31,7 @@ msg3 = (r"Due to technical reasons(I can only get reverse machine code instead o
 msg4 = r"Therefore, sentences with variables in the middle will be split out. I am sorry for the trouble."
 msg5 = r""
 msg6 = "Also, please only modify contents inside quote(\"), NEVER modify numbers at start of each line."
-msg7 = r"NEVER add or remove quote itself."
+msg7 = r"NEVER add or remove quote itself, nor / or \ before a quote."
 msg8 = r""
 msg9 = r"About indexes: index = actual number means this str is unique. index = XXXXXX means it has appeared before."
 msg10 = r"You do not need to translate them, and can safely delete them if needed. They are for better understanding of overall sentence."

@@ -447,7 +447,7 @@ You do not need to translate them, and can safely delete them if needed. They ar
 000435    "+Drag) Size"
 000436    "Gradient Box Position"
 000437    "Gradient Box Resolution"
-000438    "Pixel Count: "
+000438    "Pixel Count: \"
 000439    ">Some swatch content may be lost because the image size will be reduced."
 000440    "【Preset Tab】\n"
 000441    "You can save the tool list and tool settings.\n"

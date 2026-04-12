@@ -11,6 +11,7 @@ Download releases at here:
 | Language | Link | Supported versions
 | --- | --- | --- | 
 | Chinese | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/zh-CN) | 0.97.15 & 0.97.13 | 
+| English | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/EN) | 0.97.13 | 
 
 We strongly recommend using ver 0.97.13 instead of ver 0.97.15, since the newest version has a lot of bugs.
 
