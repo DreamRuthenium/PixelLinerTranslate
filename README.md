@@ -25,6 +25,8 @@ Download *release version* of [RABCDAsm](https://github.com/CyberShadow/RABCDAsm
 
 ```
 curl.exe -L "https://github.com/CyberShadow/RABCDAsm/releases/download/1.18/RABCDAsm_v1.18.7z" -o "RABCDAsm.7z"
+```
+```
 tar -xf "RABCDAsm.7z" -C "./RABCDAsm"
 ```
 
@@ -40,7 +42,7 @@ Secondly, download AIR SDK from [here](https://airsdk.harman.com/download), and 
 
 Simple check if ant works:
 ```
-ant-version
+ant -version
 ```
 
 You should get message like:
