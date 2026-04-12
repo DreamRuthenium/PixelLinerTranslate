@@ -12,7 +12,7 @@ Download releases at here:
 | --- | --- |
 | Chinese | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/download/CH/PixelLiner_CH_1.0.0.zip) |
 
-Inside each pack, there's a .swf file and a .air file. You chan chose one method to install. Both method requires installing Adobe Air before. You can download it from [here](https://airsdk.harman.com/runtime).
+Inside each pack, there's a .swf file and a .air file. They corresponds two different install methods. You can choose any of them, the installation result is same. Both method requires installing Adobe Air before. You can download it from [here](https://airsdk.harman.com/runtime).
 
 #### Method 1(When you have PixelLiner already installed)
 Replace pxl.swf in installation path.
