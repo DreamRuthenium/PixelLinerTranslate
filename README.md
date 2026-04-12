@@ -113,15 +113,15 @@ ant
 This command will generated a air package named PixelLiner_Modified, which can be directly installed.
 
 ## Known bugs
-My operate system is Windows 11 with Chinese system, but I will test all bugs also on a Windows 11 JP system with different hardwares.
+My operate system is Windows 11 with Chinese language pack, but I will test all bugs also on a Windows 11 JP system with different hardwares, and an IOS system.
 
-### 0.97.15 - Freeze bug
-File(ファイル) -> Edit Pattern(素材の編集) will cause the entire program to freeze, and unable to save/load/close.
+### 0.97.15 all platforms - Freeze bug
+File(ファイル) -> Edit Material(素材の編集) will cause the entire program to freeze, and unable to save/load/close.
 
 This bug appears on all tested operate systems, also, both on original / translated PixelLiner. So I think this is not a bug caused by translation.
 
-This bug do not appear on version 0.97.13, so If you need to edit pattern, it is recommend to use ver 0.97.13.（You may need to make translation by yourself, or write an issue, since we only provide ver0.97.15 currently.）
+This bug do not appear on version 0.97.13, so If you need to edit material, it is recommend to use ver 0.97.13.
 
-### 0.97.15 - Windows Ink bug
+### 0.97.15 & 0.97.13 all platforms - Windows Ink bug
 With wacom drive and Windows Ink enabled, drawing results in first 0.5s after the pen contact the board will lost. This bug can be avoided by disabling Windows Ink in wacom drive. This is also a original bug, not related to translation.
 
