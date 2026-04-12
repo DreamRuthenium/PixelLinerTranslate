@@ -8,7 +8,7 @@ This repository provide translated PixelLiner versions, and a simple translate t
 Currently, Chinese version of PixelLiner 0.97.15 is provided. Although the translated version looks good to me, since I do not have much translation experience, there might be flaws in translation results. I encourage creating your own translation version with tool provided. 
 ### Install translated release
 Download releases at here:
-| Version | Link | Supported versions
+| Language | Link | Supported versions
 | --- | --- | --- | 
 | Chinese | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/zh-CN) | 0.97.15 & 0.97.13 | 
 
