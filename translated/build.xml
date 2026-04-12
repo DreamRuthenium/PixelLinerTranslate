@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="PixelLiner_Repack" default="package_air">
+
+    <condition property="ADT_COMMAND" value="adt.bat" else="adt">
+        <os family="windows" />
+    </condition>
+
+    <property name="SOURCE_DIR" value="src"/>
+    <property name="OUTPUT_DIR" value="."/>
+    <property name="OUTPUT_FILE" value="${OUTPUT_DIR}/PixelLiner_Modified.air"/>
+    <property name="KEYSTORE" value="password_certIsDumb.p12"/>
+    <property name="KEYPASS" value="certIsDumb"/>
+
+    <target name="package_air">
+        <mkdir dir="${OUTPUT_DIR}"/>
+        <exec executable="${ADT_COMMAND}" failonerror="true">
+            <arg value="-package"/>
+            <arg value="-storetype"/><arg value="pkcs12"/>
+            <arg value="-keystore"/><arg value="${KEYSTORE}"/>
+            <arg value="-storepass"/><arg value="${KEYPASS}"/>
+            <arg value="${OUTPUT_FILE}"/>
+            <arg value="${SOURCE_DIR}/application.xml"/>
+            <arg value="-C"/><arg value="${SOURCE_DIR}"/><arg value="pxl.swf"/>
+            <arg value="-C"/><arg value="${SOURCE_DIR}"/><arg value="pxl_save"/>
+        </exec>
+    </target>
+</project>

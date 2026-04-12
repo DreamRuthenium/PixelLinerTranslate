@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<application xmlns="http://ns.adobe.com/air/application/24.0">
+    <id>jp.clobau.pixelliner</id>
+    <versionNumber>0.97.15</versionNumber>
+    <filename>PixelLiner</filename>
+    <description></description>
+    <!-- To localize the description, use the following format for the description element.
+	<description>
+		<text xml:lang="en">English App description goes here</text>
+		<text xml:lang="fr">French App description goes here</text>
+		<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+	-->
+    <name>PixelLiner</name>
+    <!-- To localize the name, use the following format for the name element.
+	<name>
+		<text xml:lang="en">English App name goes here</text>
+		<text xml:lang="fr">French App name goes here</text>
+		<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+	-->
+    <copyright>Copyright (c) 2017-2023 cloba.U</copyright>
+    <initialWindow>
+        <content>pxl.swf</content>
+        <systemChrome>standard</systemChrome>
+        <transparent>false</transparent>
+        <visible>false</visible>
+        <fullScreen>false</fullScreen>
+        <autoOrients>false</autoOrients>
+        <aspectRatio>portrait</aspectRatio>
+        <renderMode>auto</renderMode>
+        <maximizable>true</maximizable>
+        <minimizable>true</minimizable>
+        <resizable>true</resizable>
+    </initialWindow>
+    <customUpdateUI>false</customUpdateUI>
+    <allowBrowserInvocation>false</allowBrowserInvocation>
+    <icon>
+        <image32x32>pxl_save/app_icons_a32.png</image32x32>
+        <image16x16>pxl_save/app_icons_a16.png</image16x16>
+        <image128x128>pxl_save/app_icons_a128.png</image128x128>
+    </icon>
+    <fileTypes>
+        <fileType>
+            <name>PNG</name>
+            <extension>png</extension>
+            <description>Portable Network Graphics</description>
+            <contentType>image/png</contentType>
+            <icon></icon>
+        </fileType>
+        <fileType>
+            <name>GIF</name>
+            <extension>gif</extension>
+            <description>Graphics Interchange Format</description>
+            <contentType>image/gif</contentType>
+            <icon></icon>
+        </fileType>
+        <fileType>
+            <name>PixelLinerCharacterFile</name>
+            <extension>pxl</extension>
+            <description>Pixel Liner Character File</description>
+            <contentType>image/x-pixelliner</contentType>
+            <icon>
+                <image32x32>pxl_save/app_icons_d32.png</image32x32>
+                <image16x16>pxl_save/app_icons_d16.png</image16x16>
+                <image128x128>pxl_save/app_icons_d128.png</image128x128>
+            </icon>
+        </fileType>
+        <fileType>
+            <name>JPEG</name>
+            <extension>jpg</extension>
+            <description>Joint Photographic Experts Group</description>
+            <contentType>image/jpeg</contentType>
+            <icon></icon>
+        </fileType>
+        <fileType>
+            <name>PixelLinerCharacterFileMinimized</name>
+            <extension>pxls</extension>
+            <description>PixelLiner Character File Minimized</description>
+            <contentType>image/x-pixelliner</contentType>
+            <icon>
+                <image128x128>pxl_save/app_icons_d128.png</image128x128>
+                <image32x32>pxl_save/app_icons_d32.png</image32x32>
+                <image16x16>pxl_save/app_icons_d16.png</image16x16>
+            </icon>
+        </fileType>
+    </fileTypes>
+    <supportedLanguages>ja</supportedLanguages>
+    <supportedProfiles>desktop extendedDesktop</supportedProfiles>
+</application>
