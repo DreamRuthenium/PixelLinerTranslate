@@ -1,5 +1,5 @@
 # PixelLinerTranslate
-PixelLiner is a pixel-art software designed by くろば・Ｕ ( cloba.U ) [Twitter](https://x.com/cloba_____U). You can get detailed introduction about the software at [here](https://pixelliner.sakura.ne.jp/wiki/index.php?FrontPage)
+PixelLiner is a pixel-art software designed by くろば・Ｕ ( cloba.U ) [Twitter](https://x.com/cloba_____U). You can get detailed introduction about the software at [here](https://pixelliner.sakura.ne.jp/wiki/index.php?FrontPage).
 
 The original version released on [official site](https://pixelliner.sakura.ne.jp/wiki/index.php?Download) only provides Japanese version. Therefore, a localized version might be helpful to international creators.
 
@@ -24,7 +24,7 @@ Notice: Since I don't have the original certificate, replace versions that have 
 
 
 ## Make my own translation
-### 0 Setup
+### STEP0 Setup
 #### Crack tool setup
 Download **release version** of [RABCDAsm](https://github.com/CyberShadow/RABCDAsm) and unzip it into `./RABCDAsm` (The executable file should be directly accessible in `./RABCDAsm`, please avoid structures like `./RABCDAsm/RABCDAsm`).
 
@@ -60,13 +60,13 @@ Download the version of PixelLiner that you want to translate from [here](https:
 
 Good! you are ready to go!
 
-### 1 Extract machine code from air file
+### STEP1 Extract machine code from air file
 ```shell
 python step1_hackAir.py
 ```
 This script will extract swf file from .air file, then use RABCDAsm to create a `./air/pxl-0` directory, which will contain pxl-0.main.asasm (the main program file) and files for ActionScript scripts, classes, and orphan and script-level methods.
 
-### 2 Extract texts to be translated
+### STEP2 Extract texts to be translated
 ```shell
 python step2_extractText.py name_you_set
 ```
@@ -81,24 +81,24 @@ The origin map file will be stored into `./air/doNotModify/translateFrom.txt`, w
 
 The file for translators will be stored into `./name_you_set.txt`, the name of txt file is depending on filename argument.
 
-### 2.5 Translate
+### STEP2.5 Translate
 Open `./name_you_set.txt`, there's is going to be an English guide for translate procedure. Follow it and translate it into the language you want. You can safely overwrite it as long as you don't change index at start and quotes.
 
 I have provided a sample file of Chinese translation in `./Ch_sample.txt`
 
-### 3 Write back text
+### STEP3 Write back text
 ```shell
 python step3_writeBackText.py name_you_set
 ```
 This script will copy extracted files into `./translated/pxl-0/`. Then, it will replace all original Japan texts found in step2 into the translated version you just created.
 
-### 4 Repackage
+### STEP4 Repackage
 ```shell
 python step4_restoreAir.py
 ```
 This script will re-package the translate codes into a swf file, which can be easily used. You can find it in `./translated/pxl.swf`
 
-### 5 Package to ant(Optional)
+### STEP5 Package to ant(Optional)
 I have prepared essential files for packaging ant files, but you can modify them if necessary.
 
 You have to install Apache Ant to do this.
