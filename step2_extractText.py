@@ -68,7 +68,7 @@ for i, text in enumerate(rows):
         result.append("XXXXXX" + "    " + rows[i])
 
 result = [msg1,msg2,msg3,msg4,msg5,msg6,msg7,msg8, msg9, msg10, msg11] + result
-print(len(not_showed))
+
 if len(files) <= 100:
     raise ValueError(f"Unable to find any lines. This is not an expected error.")
 else:
