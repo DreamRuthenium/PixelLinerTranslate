@@ -5,7 +5,7 @@ The original version released on [official site](https://pixelliner.sakura.ne.jp
 
 This repository provide translated PixelLiner versions, and a simple translate tool without the need of source code.
 ## Install translated version
-Currently, Chinese version of PixelLiner 0.97.15 is provided. Although the translated version looks good to me, since I do not have much translation experience, there might be flaws in translation results. I encourage creating your own translation version with tool provided. 
+Currently, Chinese & English version of PixelLiner 0.97.15 is provided. Although the translated version looks good to me, since I do not have much translation experience, there might be flaws in translation results. I encourage creating your own translation version with tool provided. 
 ### Install translated release
 Download releases at here:
 | Language | Link | Supported versions
