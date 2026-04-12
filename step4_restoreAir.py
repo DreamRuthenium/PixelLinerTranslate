@@ -23,7 +23,7 @@ else:
 
 # Call outside program(RABCDAsm) to crack swf into asasm files
 result = subprocess.run(
-    [r"./RABCDAsm_v1.18/rabcasm", "pxl-0/pxl-0.main.asasm"],
+    [r"./RABCDAsm/rabcasm", "pxl-0/pxl-0.main.asasm"],
     cwd=air_path
 )
 
@@ -34,7 +34,7 @@ else:
 
 # Call outside program(RABCDAsm) to crack abc file
 result = subprocess.run(
-    [r"./RABCDAsm_v1.18/abcreplace",
+    [r"./RABCDAsm/abcreplace",
      "./pxl.swf", "0", "pxl-0/pxl-0.main.abc"],
     cwd=air_path
 )

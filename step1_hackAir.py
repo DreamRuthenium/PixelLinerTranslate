@@ -36,7 +36,7 @@ if os.path.exists(pxlabc_path):
 
 # Call outside program(RABCDAsm) to crack swf into asasm files
 result = subprocess.run(
-    [r"./RABCDAsm_v1.18/abcexport", "pxl.swf"],
+    [r"./RABCDAsm/abcexport", "pxl.swf"],
     cwd=air_path
 )
 
@@ -47,7 +47,7 @@ else:
 
 # Call outside program(RABCDAsm) to crack abc file
 result = subprocess.run(
-    [r"./RABCDAsm_v1.18/rabcdasm", "pxl-0.abc"],
+    [r"./RABCDAsm/rabcdasm", "pxl-0.abc"],
     cwd=air_path
 )
 
