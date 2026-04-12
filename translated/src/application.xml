@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <application xmlns="http://ns.adobe.com/air/application/24.0">
     <id>jp.clobau.pixelliner</id>
-    <versionNumber>0.97.15</versionNumber>
+    <versionNumber>0.97.13</versionNumber>
     <filename>PixelLiner</filename>
     <description></description>
     <!-- To localize the description, use the following format for the description element.

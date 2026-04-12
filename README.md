@@ -8,9 +8,11 @@ This repository provide translated PixelLiner versions, and a simple translate t
 Currently, Chinese version of PixelLiner 0.97.15 is provided. Although the translated version looks good to me, since I do not have much translation experience, there might be flaws in translation results. I encourage creating your own translation version with tool provided. 
 ### Install translated release
 Download releases at here:
-| Version | Link |
-| --- | --- |
-| Chinese | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/zh-CN) |
+| Version | Link | Supported versions
+| --- | --- | --- | 
+| Chinese | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/zh-CN) | 0.97.15 & 0.97.13 | 
+
+We strongly recommend using ver 0.97.13 instead of ver 0.97.15, since the newest version has a lot of bugs.
 
 Inside each pack, there's a .swf file and a .air file. They corresponds two different install methods. You can choose any of them, the installation result is same. Both method requires installing Adobe Air before. You can download it from [here](https://airsdk.harman.com/runtime).
 

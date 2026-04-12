@@ -4,6 +4,9 @@ import csv
 from pathlib import Path
 import shutil
 import argparse
+import stat
+
+# python step3_writeBackText.py temp
 
 pattern = r'"([^"\n]+)"'
 pattern_jp = r'"[^"\n]*[\u3040-\u30FF\u4E00-\u9FFF][^"\n]*"'
@@ -13,12 +16,24 @@ parser.add_argument("filename", nargs="?", help="The filename for you translate 
 args = parser.parse_args()
 
 
+
 # Copy original version into output path
 src_path = Path("./air/pxl-0/")
 dst_path = Path("./translated/pxl-0/")
 
 if not src_path.exists() or not src_path.is_dir():
     raise ValueError(f"Unable to find source : {src_path}")
+
+# Extracted files may contain readonly, which is hard to remove
+def force_remove_readonly(func, path, excinfo):
+    os.chmod(path, stat.S_IWRITE)
+    func(path)
+
+# remove files from last time
+if os.path.exists(dst_path):
+    shutil.rmtree(dst_path, onerror=force_remove_readonly)
+
+
 
 print(f"Copying swf files from {src_path} to {dst_path}")
 shutil.copytree(src_path, dst_path, dirs_exist_ok=True)
@@ -65,6 +80,7 @@ for (dirpath, dirnames, filenames) in w:
 
 def make_repl(factor: dict):
     def repl(match: re.Match) -> str:
+        print(match.group(0))
         return str(factor[match.group(0)])
     return repl
 
@@ -79,8 +95,8 @@ for filename in files:
         for line in lines:
             currentLine = line.strip()
             if re.search(pattern_jp, currentLine):
+                print(currentLine)
                 translated = re.sub(pattern_jp, make_repl(translate_dic), currentLine)
-                print(translated)
                 counter += 1
             else:
                 translated = currentLine

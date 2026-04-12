@@ -3,6 +3,8 @@ import os
 import re
 from pathlib import Path
 
+# python step2_extractText.py temp
+
 pattern = r'"[^"\n]*[\u3040-\u30FF\u4E00-\u9FFF][^"\n]*"'
 
 parser = argparse.ArgumentParser(description="Extract all JP lines")
