@@ -12,3 +12,5 @@ ch.txt
 RABCDAsm/
 RABCDAsm.7z
 temp/
+__pycache__/
+myEN
