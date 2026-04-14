@@ -9,10 +9,11 @@ This repository provide translated PixelLiner versions, and a simple translate t
 Currently, Chinese & English version of PixelLiner 0.97.15/0.97.14/0.97.13 is provided. Although the translated version looks good to me, since I do not have much translation experience, there might be flaws in translation results. If you have translation experience, I strongly encourage creating your own translation version with tools provided. 
 ### Install translated release
 Download releases at here:
-| Language | Link | Supported versions | Backup Download
+| Version | Link | Supported languages | Backup Download
 | --- | --- | --- | --- |
-| Chinese | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/zh-CN) | 0.97.15 & 0.97.14 & 0.97.13 | [0.97.13](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.13_zh-CN.zip) [0.97.15](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.15_zh-CN.zip) |
-| English | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/EN) | 0.97.14 & 0.97.13 | [0.97.13](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.13_EN.zip) |
+| 0.97.13 | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/0.97.13) | EN & zh-CN | [EN](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.13_EN.zip) [zh-CN](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.13_zh-CN.zip) |
+| 0.97.14 | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/0.97.14) | EN & zh-CN | No backup yet |
+| 0.97.15(Not recommended) | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/0.97.15) | zh-CN only | [zh-CN](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.15_zh-CN.zip) |
 
 We strongly recommend using ver 0.97.14 instead of ver 0.97.15, since the newest version has a lot of bugs.
 
