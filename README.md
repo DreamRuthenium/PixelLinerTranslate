@@ -9,10 +9,10 @@ This repository provide translated PixelLiner versions, and a simple translate t
 Currently, Chinese & English version of PixelLiner 0.97.15/0.97.13 is provided. Although the translated version looks good to me, since I do not have much translation experience, there might be flaws in translation results. If you have translation experience, I strongly encourage creating your own translation version with tools provided. 
 ### Install translated release
 Download releases at here:
-| Language | Link | Supported versions
-| --- | --- | --- | 
-| Chinese | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/zh-CN) | 0.97.15 & 0.97.13 | 
-| English | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/EN) | 0.97.13 | 
+| Language | Link | Supported versions | Backup Download
+| --- | --- | --- | --- |
+| Chinese | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/zh-CN) | 0.97.15 & 0.97.13 | [0.97.13](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.13_zh-CN.zip) [0.97.15](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.15_zh-CN.zip) |
+| English | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/EN) | 0.97.13 | [0.97.13](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.13_EN.zip) |
 
 We strongly recommend using ver 0.97.13 instead of ver 0.97.15, since the newest version has a lot of bugs.
 
@@ -126,3 +126,5 @@ This bug do not appear on version 0.97.13, so If you need to edit material, it i
 ### 0.97.15 & 0.97.13 all platforms - Windows Ink bug
 With wacom drive and Windows Ink enabled, drawing results in first 0.5s after the pen contact the board will lost. This bug can be avoided by disabling Windows Ink in wacom drive. This is also a original bug, not related to translation.
 
+## Acknowledgments
+Special thanks for [泡花茶的一只猹](https://github.com/CharaDrinkTea255), who provided important reverse engineering knowledge and download server.
