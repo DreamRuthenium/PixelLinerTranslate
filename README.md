@@ -6,15 +6,15 @@ The original version released on [official site](https://pixelliner.sakura.ne.jp
 This repository provide translated PixelLiner versions, and a simple translate tool without the need of source code.
 ![logo](imgs/International.png)
 ## Install translated version
-Currently, Chinese & English version of PixelLiner 0.97.15/0.97.13 is provided. Although the translated version looks good to me, since I do not have much translation experience, there might be flaws in translation results. If you have translation experience, I strongly encourage creating your own translation version with tools provided. 
+Currently, Chinese & English version of PixelLiner 0.97.15/0.97.14/0.97.13 is provided. Although the translated version looks good to me, since I do not have much translation experience, there might be flaws in translation results. If you have translation experience, I strongly encourage creating your own translation version with tools provided. 
 ### Install translated release
 Download releases at here:
 | Language | Link | Supported versions | Backup Download
 | --- | --- | --- | --- |
-| Chinese | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/zh-CN) | 0.97.15 & 0.97.13 | [0.97.13](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.13_zh-CN.zip) [0.97.15](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.15_zh-CN.zip) |
-| English | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/EN) | 0.97.13 | [0.97.13](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.13_EN.zip) |
+| Chinese | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/zh-CN) | 0.97.15 & 0.97.14 & 0.97.13 | [0.97.13](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.13_zh-CN.zip) [0.97.15](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.15_zh-CN.zip) |
+| English | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/EN) | 0.97.14 & 0.97.13 | [0.97.13](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.13_EN.zip) |
 
-We strongly recommend using ver 0.97.13 instead of ver 0.97.15, since the newest version has a lot of bugs.
+We strongly recommend using ver 0.97.14 instead of ver 0.97.15, since the newest version has a lot of bugs.
 
 Inside each pack, there's a .swf file and a .air file. They corresponds two different install methods. You can choose any of them, the installation result is same. Both method requires installing Adobe Air before. You can download it from [here](https://airsdk.harman.com/runtime).
 

@@ -6,7 +6,7 @@ import shutil
 import argparse
 import stat
 
-# python step3_writeBackText.py temp
+# python step3_writeBackText.py 014en
 
 pattern = r'"([^"\n]+)"'
 pattern_jp = r'"[^"\n]*[\u3040-\u30FF\u4E00-\u9FFF][^"\n]*"'

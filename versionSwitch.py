@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 import shutil
 
-# python versionSwitch.py "ch_translate_0.97.15/myCh" "ch_translate_0.97.15/translateFrom" "temp"
+# python versionSwitch.py "en_translate_0.97.13/myEN" "en_translate_0.97.13/translateFrom" "014en"
 
 pattern = r'"([^"\n]+)"'
 
