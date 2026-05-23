@@ -1,9 +1,14 @@
 # PixelLinerTranslate
+
 PixelLiner is a pixel-art software designed by くろば・Ｕ ( cloba.U ) [Twitter](https://x.com/cloba_____U). You can get detailed introduction about the software at [here](https://pixelliner.sakura.ne.jp/wiki/index.php?FrontPage).
 
-The original version released on [official site](https://pixelliner.sakura.ne.jp/wiki/index.php?Download) only provides Japanese version. Therefore, a localized version might be helpful to international creators.
+**Currently, zh-CN & English translation is directly provided in Official releases older than 0.98! Visit [here](https://pixelliner.sakura.ne.jp/wiki/index.php?Download) to simply download it.**
 
-This repository provide translated PixelLiner versions, and a simple translate tool without the need of source code.
+Before 2026.5.22, original versions released on [official site](https://pixelliner.sakura.ne.jp/wiki/index.php?Download) only provides Japanese version. Therefore, this localization tool is created to help international creators.
+
+This repository provides translated PixelLiner versions, and a simple translate tool without the need of source code.
+
+
 ![logo](imgs/International.png)
 ## Install translated version
 Currently, Chinese & English version of PixelLiner 0.97.15/0.97.14/0.97.13 is provided. Although the translated version looks good to me, since I do not have much translation experience, there might be flaws in translation results. If you have translation experience, I strongly encourage creating your own translation version with tools provided. 
@@ -11,11 +16,26 @@ Currently, Chinese & English version of PixelLiner 0.97.15/0.97.14/0.97.13 is pr
 Download releases at here:
 | Version | Link | Supported languages | Backup Download
 | --- | --- | --- | --- |
+| 0.98.07~(Recommend!) | [Official Link](https://pixelliner.sakura.ne.jp/wiki/index.php?Download) | JA & EN & zh-CN | --- |
 | 0.97.13 | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/0.97.13) | EN & zh-CN | [EN](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.13_EN.zip) [zh-CN](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.13_zh-CN.zip) |
 | 0.97.14 | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/0.97.14) | EN & zh-CN | No backup yet |
 | 0.97.15(Not recommended) | [Release Link](https://github.com/DreamRuthenium/PixelLinerTranslate/releases/tag/0.97.15) | zh-CN only | [zh-CN](https://aic.imtfe.org/archive/pixelliner-l10n/PixelLiner0.97.15_zh-CN.zip) |
 
-We strongly recommend using ver 0.97.14 instead of ver 0.97.15, since the newest version has a lot of bugs.
+**We strongly recommend using ver 0.98.x** This version has fixed multiple bugs, and zh-CN & English translation results has been integrated into official release.
+
+#### Installing versions 0.98 or later:
+
+Simply follow the instruction on official website, you can download & install the software.
+
+After installation, you might find it hard to find language switch buttons if you can't read Japanese. You can follow this instruction:
+
+First, click navigation bar at top in this sequence "表示→設定"
+![Find Setting](imgs/set1.png)
+Then, try to find topic "■アピアランス、その他■" in the tab you just opened. The first option below it should be language setting.
+![Find Setting 2](imgs/set2.png)
+Finally, to save the changes you just made to settings, click navigation bar "ファイル→初期設定を出力..."("File→Export Preferences..."). You don't need to actually save anything, just clicking the navigation bar will automatically save default settings.
+![Find Setting 2](imgs/set3.png)
+#### Installing versions before 0.97:
 
 Inside each pack, there's a .swf file and a .air file. They corresponds two different install methods. You can choose any of them, the installation result is same. Both method requires installing Adobe Air before. You can download it from [here](https://airsdk.harman.com/runtime).
 
@@ -29,6 +49,7 @@ Notice: Since I don't have the original certificate, replace versions that have 
 
 
 ## Make my own translation
+This is an old approach for versions before and include 0.97. If you want to translate versions older than 0.98, follow instructions [here](https://pixelliner.sakura.ne.jp/wiki/index.php?ApplicationLocal/Localization).
 ### STEP0 Setup
 #### Crack tool setup
 Download **release version** of [RABCDAsm](https://github.com/CyberShadow/RABCDAsm) and unzip it into `./RABCDAsm` (The executable file should be directly accessible in `./RABCDAsm`, please avoid structures like `./RABCDAsm/RABCDAsm`).
