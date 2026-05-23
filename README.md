@@ -30,11 +30,11 @@ Simply follow the instruction on official website, you can download & install th
 After installation, you might find it hard to find language switch buttons if you can't read Japanese. You can follow this instruction:
 
 First, click navigation bar at top in this sequence "表示→設定"
-![Find Setting](imgs/set1.png)
+![Find Setting](imgs/Set1.png)
 Then, try to find topic "■アピアランス、その他■" in the tab you just opened. The first option below it should be language setting.
-![Find Setting 2](imgs/set2.png)
+![Find Setting 2](imgs/Set2.png)
 Finally, to save the changes you just made to settings, click navigation bar "ファイル→初期設定を出力..."("File→Export Preferences..."). You don't need to actually save anything, just clicking the navigation bar will automatically save default settings.
-![Find Setting 2](imgs/set3.png)
+![Find Setting 2](imgs/Set3.png)
 #### Installing versions before 0.97:
 
 Inside each pack, there's a .swf file and a .air file. They corresponds two different install methods. You can choose any of them, the installation result is same. Both method requires installing Adobe Air before. You can download it from [here](https://airsdk.harman.com/runtime).
